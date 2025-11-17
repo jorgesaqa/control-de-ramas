@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dyYPtWM0oEiop6QcT0NsUw" Reference="edXGC0ZMjkKZRkAI6lvryg/gGt97dt91kSwGjOP1PueCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="console.firebase.google.com/project/appportugaldes/analytics/app/android:com.iberdrola.clientesptdes/debugview/realtime~2Fdebugview%3Ffpn%3D1037982329862" CVScreenId="ed73ed32-74da-4ad5-9ff4-a1d711466148" DesignTimeRectangle="871, 562, 35, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl id='iframe-analytics' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl class='key-text' matching:class='fuzzy' fuzzylevel:class='0.0' tag='DIV' type='' aaname='{0}' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&quot;, datos)]" Guid="8129e194-59a2-4116-8403-cddc2c04302a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='portugalDes - DebugView - Firebase console' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6f8583dad0d55b47447c5cc945909e9.png" xmlns="">0XzAB9_o5KEeLe18OGAVr-g</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="datos" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

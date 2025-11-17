@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H2DWeAjcDEewQmrDMXii_w" Reference="edXGC0ZMjkKZRkAI6lvryg/6kj8_CRGLUiekOKJKbbXPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="console.firebase.google.com/project/appportugaldes/analytics/app/android:com.iberdrola.clientesptdes/debugview/realtime~2Fdebugview%3Ffpn%3D1037982329862" CVScreenId="4d2f85fc-76c0-49f0-bd17-82c323f0939a" ContentHash="3ja9k-8O7UuVfbrTnCp2IQ" CvElementArea="681, 498, 470, 413" CvType="Table" DesignTimeRectangle="871, 665, 116, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframe-analytics' tag='IFRAME' /&gt;&lt;webctrl aaname='firebase_conversion' class='key-text' tag='DIV' /&gt;" Guid="6a6a7ac6-371c-4525-a567-0751eda4b394" Reference="edXGC0ZMjkKZRkAI6lvryg/6kj8_CRGLUiekOKJKbbXPA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='portugalDes - DebugView - Firebase console' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f36e3bd1dc9d130704173ff14ea4ca4.png" xmlns="">0s1jUoBFgJEuWxxwA7Dj6RQ</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+&lt;/Table&gt;</p:InArgument>
+    <x:Null x:Key="NextLinkTarget" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

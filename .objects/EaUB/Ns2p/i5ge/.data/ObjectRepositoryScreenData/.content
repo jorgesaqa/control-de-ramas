@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="wLeJZ7ZaRkip9owkU7hq3w" Reference="edXGC0ZMjkKZRkAI6lvryg/i5gep5PbIUuI1clQXWuc6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="vKfnz3FVc0eQsu1KEneQ9A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHySURBVFhH7Ze/SsNQFMa/R+gjdBQTITjp1mdwc/IBHHR008HNoS04iINWKIgKiuAkSNHWubu2XlxFDDjoUMqRm5o2Pefe5vZPFvGDj0Kb5PflnJN7U+BfU0jNIf/io6Y/+W+ZS0PbHlTbB7V8NJsBcvyYzKTyyMXwvj0c8+MyU8tDZQj+a+Vjmx87cz37KHAwq8QmP2em0v0WUOaneQT8vJko9e4HVVCZPBm23pucyZMhJj/NCyjya0wsFSAnAC6e1VA69186nGge6BFXVIeiBojqCLtnaL6tgF6XBCDVernm1x8pqqMQgZO+BlEZ1NkF6SAckmZdQc6xih5QEQFuegFif6xJyCi3fJQ4x6p+6ZO+HQ6g/b4qQVZ7UJxjFNWQE3DtexmguwdSiwaYxU7rAtWQF/DYRzLEOK1wehpGBjiXAb62JMhm1wDmFmhb2sBBNju1QMs4hLGrMgQHmdzy0OQcq6iOkgAnq7A/QQXGeWMyLkRJXw4CfDvOgFP/k4qWYg5O+rQXwGlVHOfuY0XDOGoWGqDOAeh12QAchk/+ckINBNRAyMF9V1PXgVBN+3oWrQumSlwM5uBz3bBL6jufFh4rChFvUHcgOpGPot4ldTV0EL3x6P8O/DpTKwpyiA0qoUZlhIkAYfRdETtUzAD8p/UD+Mfnc3S4dx0AAAAASUVORK5CYII=" Reference="edXGC0ZMjkKZRkAI6lvryg/i5gep5PbIUuI1clQXWuc6Q" Selector="&lt;html app='msedge.exe' title='portugalDes - DebugView - Firebase console' /&gt;" Url="https://console.firebase.google.com/project/appportugaldes/analytics/app/android:com.iberdrola.clientesptdes/debugview*" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc4b35d7626ecc98495b104a75f2e0ac.jpg" xmlns="">0wg_UflWkLEmPAyb3zYAvPA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
