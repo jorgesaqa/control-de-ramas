@@ -256,7 +256,7 @@
       <AssemblyReference>Microsoft.Office.Interop.Excel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="736,3022" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="736,2950" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="rutaExcel" />
       <Variable x:TypeArguments="x:String" Name="datos" />
@@ -287,7 +287,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <ueawb:GetSelectedRangeX DisplayName="Guardamos el Rango Seleccionado" sap:VirtualizedContainerService.HintSize="444,173.33333333333334" sap2010:WorkflowViewState.IdRef="GetSelectedRangeX_2" Range="[Rango]" Workbook="[Excel]" />
             <ueab:ReadRangeX DisplayName="Leemos el rango focuseado" sap:VirtualizedContainerService.HintSize="444,206.66666666666666" sap2010:WorkflowViewState.IdRef="ReadRangeX_2" Range="[Rango]" SaveTo="[DtbExcel]" />
-            <Assign sap:VirtualizedContainerService.HintSize="444,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign DisplayName="Eliminamos los datos en blanco" sap:VirtualizedContainerService.HintSize="444,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="sd:DataTable">[DtbExcel]</OutArgument>
               </Assign.To>
@@ -300,13 +300,13 @@
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
     </ueab:ExcelApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge portugalDes - DebugView - Firebase conso" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,1787.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bf02c860-c67e-4ae4-903d-a7d223179b23" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge portugalDes - DebugView - Firebase conso" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,1715.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bf02c860-c67e-4ae4-903d-a7d223179b23" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,1592.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,1520.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="valor" />
               <Variable x:TypeArguments="ui:UiElement" Name="elementsChild" />
@@ -316,13 +316,13 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DtbExcel]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,1532.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DtbExcel]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,1460.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,1358" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,1286" sap2010:WorkflowViewState.IdRef="Sequence_13">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="valorCoincidencia" />
                     </Sequence.Variables>
@@ -356,9 +356,9 @@
                         <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" Guid="29f2ef5f-6c10-4197-a455-06c8f2cd758b" Version="V6" />
                       </uix:NGetText.Target>
                     </uix:NGetText>
-                    <If Condition="[valorCoincidencia.Split(&quot; &quot;c).Last().Equals(CurrentRow(2).ToString)]" DisplayName="Filtramos el valor y comparamos si es el resultado esperado" sap:VirtualizedContainerService.HintSize="452,820" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If Condition="[valorCoincidencia.Split(&quot; &quot;c).Last().Equals(CurrentRow(2).ToString)]" DisplayName="Filtramos el valor y comparamos si es el resultado esperado" sap:VirtualizedContainerService.HintSize="452,748" sap2010:WorkflowViewState.IdRef="If_1">
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,520" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,448" sap2010:WorkflowViewState.IdRef="Sequence_14">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="ui:Image" Name="imagen" />
                           </Sequence.Variables>
@@ -367,7 +367,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" FileNameMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,300" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" InUiElement="[elementsChild.Parent.Parent.Parent]" OutImage="[imagen]" SaveScreenshotTo="Image" ScopeIdentifier="bf02c860-c67e-4ae4-903d-a7d223179b23" Version="V5" />
+                          <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" FileNameMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" InUiElement="[elementsChild.Parent.Parent.Parent]" OutImage="[imagen]" SaveScreenshotTo="Image" ScopeIdentifier="bf02c860-c67e-4ae4-903d-a7d223179b23" Version="V5" />
                           <ui:SaveImage DisplayName="Save Image" FileName="[&quot;C:\Users\0018255\Desktop\analitica\&quot;+CurrentRow(0).ToString+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="416,160" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[imagen]" />
                         </Sequence>
                       </If.Then>
