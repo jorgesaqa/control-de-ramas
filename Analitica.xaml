@@ -286,7 +286,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ueawb:GetSelectedRangeX DisplayName="Guardamos el Rango Seleccionado" sap:VirtualizedContainerService.HintSize="444,173.33333333333334" sap2010:WorkflowViewState.IdRef="GetSelectedRangeX_2" Range="[Rango]" Workbook="[Excel]" />
-            <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,206.66666666666666" sap2010:WorkflowViewState.IdRef="ReadRangeX_2" Range="[Rango]" SaveTo="[DtbExcel]" />
+            <ueab:ReadRangeX DisplayName="Leemos el rango focuseado" sap:VirtualizedContainerService.HintSize="444,206.66666666666666" sap2010:WorkflowViewState.IdRef="ReadRangeX_2" Range="[Rango]" SaveTo="[DtbExcel]" />
             <Assign sap:VirtualizedContainerService.HintSize="444,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="sd:DataTable">[DtbExcel]</OutArgument>
